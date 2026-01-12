@@ -78,7 +78,10 @@ class _DetailScreenState extends State<DetailScreen> {
         ],
         title: Text(
           widget.title,
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.w400),
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.w400,
+          ),
         ),
       ),
       body: SingleChildScrollView(
